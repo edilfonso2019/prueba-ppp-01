@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  background: #2c2c2c;
+  box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.content-navbar {
+  width: max-content;
+}
+
+.container-elements {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.icon-sistem {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.texto-bienvenida {
+  color: white;
+  margin-right: 14px;
+}
+
+.content-front {
+  display: flex;
+  align-items: center;
+}
+
+.icon-sistem img {
+  width: 50px;
+}
+
+.container-elements .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container-elements .avatar:hover {
+  border: 2px solid white;
+}
+
+/**
+*evita que se translade, mor las prpiedades de nAVlINK 
+ */
+.container-elements .active {
+  transform: none;
+}
+
+.texto-progreso {
+  color: white;
+  margin-right: 14px;
+  font-size: 16px;
+}
+
+.icon-casa {
+  margin-right: 14px;
+}
+
+.icon-campana {
+  margin-right: 14px;
+}
+
+.icon-bandera {
+  margin-right: 14px;
+}
+
+.button-progreso {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}

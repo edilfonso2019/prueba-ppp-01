@@ -1,0 +1,134 @@
+.contenedor {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(243, 243, 243, 0.2);
+  backdrop-filter: blur(8px);
+  display: none;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-inputs {
+  width: 600px;
+  height: 420px;
+  background-color: rgba(47, 64, 80, 0.7);
+  box-shadow: 0 10px 20px 5px rgb(0 0 0 / 20%);
+  border-radius: 20px;
+}
+
+.openMostrar {
+  display: flex;
+}
+
+.close-modal {
+  background-color: transparent;
+  border: none;
+  height: 48px;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.btn-img-close {
+  height: 53%;
+}
+
+.titulo-modal {
+  margin-left: 4%;
+}
+
+.h1-titutlo {
+  color: white;
+  margin: 0;
+  font-size: 3vw;
+  font-weight: 1;
+}
+
+.p-sub-informacion {
+  color: white;
+  margin: 0;
+  font-size: 1vw;
+}
+
+.estilo-generico-elemento {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.estilo-input-general {
+  border: none;
+  border-radius: 12px;
+  height: 24px;
+  outline: none;
+  transition: 0.2s;
+}
+.estilo-input-general:hover {
+  box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+}
+
+.input-nombre {
+  width: 35%;
+}
+
+.input-apellido {
+  width: 50%;
+}
+
+.estilo-correo {
+  width: 100%;
+}
+
+.input-correo {
+  width: 91%;
+}
+
+.ejemplo-correo {
+  color: white;
+  font-size: 12px;
+  margin: 0% 0% 0% 5%;
+}
+
+.margin-correo {
+  margin: 0;
+  padding: 0;
+}
+
+.input-codigo {
+  width: 30%;
+}
+
+.input-direccion {
+  width: 55%;
+}
+
+.input-numero {
+  width: 41%;
+}
+
+.input-password {
+  width: 44%;
+}
+
+.pie-modal {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-registrar {
+  width: 50%;
+  height: 37px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #293844;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.boton-registrar:hover {
+  box-shadow: 0 1px 1px 2px rgba(214, 214, 214, 0.2);
+}
